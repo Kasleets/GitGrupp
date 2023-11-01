@@ -11,6 +11,7 @@ namespace GitGrupp.Controllers
         // Added a comment 'And now Kasleet breaks it' for Liu from Kasleet
         // Surprising problem from Kasleet
         // Added a comment to test git from Kasleet
+        //From my personal branch /E16johka
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
