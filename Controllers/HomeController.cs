@@ -8,6 +8,7 @@ namespace GitGrupp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
+        // Added a comment to test git from Kasleet
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -27,6 +28,13 @@ namespace GitGrupp.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        // Adding a method to test a commit from Kasleet
+        public void TestMethod()
+        {
+            Console.WriteLine("Hello World! I came to create Git Conflicts!");
+            return;
         }
     }
 }
