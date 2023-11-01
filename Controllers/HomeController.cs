@@ -7,7 +7,9 @@ namespace GitGrupp.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-       // Causing a conflict error / e16johka
+       
+        // Added a comment 'And now Kasleet breaks it' for Liu from Kasleet
+        // Surprising problem from Kasleet
         // Added a comment to test git from Kasleet
         public HomeController(ILogger<HomeController> logger)
         {
