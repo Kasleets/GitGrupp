@@ -8,6 +8,8 @@ namespace GitGrupp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
        
+        // Added a comment 'And now Kasleet breaks it' for Liu from Kasleet
+        // Surprising problem from Kasleet
         // Added a comment to test git from Kasleet
         public HomeController(ILogger<HomeController> logger)
         {
