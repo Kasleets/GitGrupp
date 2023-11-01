@@ -41,6 +41,7 @@ namespace GitGrupp.Controllers
         }
 
         // Adding a commit to see how it looks like for Swetha
+        // Adding a commit to see how it looks like for Swetha -- one more time
         public void TestMethodNewBranch(string message)
         {
             TestMethod();
